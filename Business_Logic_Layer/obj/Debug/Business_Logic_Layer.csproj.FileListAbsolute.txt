@@ -1,0 +1,9 @@
+C:\Users\Alex\source\repos\Kursovaya\Business_Logic_Layer\obj\Debug\Business_Logic_Layer.csproj.AssemblyReference.cache
+C:\Users\Alex\source\repos\Kursovaya\Business_Logic_Layer\obj\Debug\Business_Logic_Layer.csproj.CoreCompileInputs.cache
+C:\Users\Alex\source\repos\Kursovaya\Business_Logic_Layer\bin\Debug\Business_Logic_Layer.dll
+C:\Users\Alex\source\repos\Kursovaya\Business_Logic_Layer\bin\Debug\Business_Logic_Layer.pdb
+C:\Users\Alex\source\repos\Kursovaya\Business_Logic_Layer\bin\Debug\Data_Access_Layer.dll
+C:\Users\Alex\source\repos\Kursovaya\Business_Logic_Layer\bin\Debug\Data_Access_Layer.pdb
+C:\Users\Alex\source\repos\Kursovaya\Business_Logic_Layer\obj\Debug\Business_Logic_Layer.csproj.CopyComplete
+C:\Users\Alex\source\repos\Kursovaya\Business_Logic_Layer\obj\Debug\Business_Logic_Layer.dll
+C:\Users\Alex\source\repos\Kursovaya\Business_Logic_Layer\obj\Debug\Business_Logic_Layer.pdb

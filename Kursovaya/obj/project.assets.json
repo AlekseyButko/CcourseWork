@@ -1,0 +1,111 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "Business_Logic_Layer/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Data_Access_Layer": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Business_Logic_Layer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Business_Logic_Layer.dll": {}
+        }
+      },
+      "Data_Access_Layer/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Data_Access_Layer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Data_Access_Layer.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Business_Logic_Layer/1.0.0": {
+      "type": "project",
+      "path": "../Business_Logic_Layer/Business_Logic_Layer.csproj",
+      "msbuildProject": "../Business_Logic_Layer/Business_Logic_Layer.csproj"
+    },
+    "Data_Access_Layer/1.0.0": {
+      "type": "project",
+      "path": "../Data_Access_Layer/Data_Access_Layer.csproj",
+      "msbuildProject": "../Data_Access_Layer/Data_Access_Layer.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "Business_Logic_Layer >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Alex\\.nuget\\packages\\": {},
+    "E:\\Visual Studio 3\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Alex\\source\\repos\\Kursovaya\\Kursovaya\\Kursovaya.csproj",
+      "projectName": "Kursovaya",
+      "projectPath": "C:\\Users\\Alex\\source\\repos\\Kursovaya\\Kursovaya\\Kursovaya.csproj",
+      "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Alex\\source\\repos\\Kursovaya\\Kursovaya\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "E:\\Visual Studio 3\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Alex\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "C:\\Users\\Alex\\source\\repos\\Kursovaya\\Business_Logic_Layer\\Business_Logic_Layer.csproj": {
+              "projectPath": "C:\\Users\\Alex\\source\\repos\\Kursovaya\\Business_Logic_Layer\\Business_Logic_Layer.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

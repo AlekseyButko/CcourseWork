@@ -1,0 +1,692 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+<coverage line-rate="0.6919831223628692" branch-rate="0.3055555555555556" lines-covered="164" lines-valid="237" branches-covered="11" branches-valid="36" complexity="54" version="0" timestamp="1640083572">
+  <sources />
+  <packages>
+    <package name="Business_Logic_Layer" line-rate="0.5897435897435898" branch-rate="0.3055555555555556" complexity="45">
+      <classes>
+        <class name="Business_Logic_Layer.Client" filename="C:\Users\Alex\source\repos\Kursovaya\Business_Logic_Layer\Client.cs" line-rate="0.95" branch-rate="0.5" complexity="3">
+          <methods>
+            <method name="Name" signature="()" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines>
+                <line number="31" hits="6" branch="false" />
+              </lines>
+            </method>
+            <method name="Surname" signature="()" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines>
+                <line number="35" hits="9" branch="false" />
+              </lines>
+            </method>
+            <method name="AccountNumber" signature="()" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines>
+                <line number="39" hits="51" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.String,System.String,System.Int32)" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines>
+                <line number="13" hits="9" branch="false" />
+                <line number="14" hits="9" branch="false" />
+                <line number="15" hits="9" branch="false" />
+                <line number="16" hits="9" branch="false" />
+                <line number="17" hits="9" branch="false" />
+                <line number="18" hits="9" branch="false" />
+                <line number="19" hits="9" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="21" hits="3" branch="false" />
+                <line number="22" hits="3" branch="false" />
+                <line number="23" hits="3" branch="false" />
+              </lines>
+            </method>
+            <method name="GetOffersList" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="42" hits="2" branch="false" />
+                <line number="45" hits="2" branch="false" />
+                <line number="46" hits="2" branch="false" />
+              </lines>
+            </method>
+            <method name="AddOffer" signature="(System.Int32,Business_Logic_Layer.PropertyManagement)" line-rate="0.875" branch-rate="0.5" complexity="NaN">
+              <lines>
+                <line number="50" hits="1" branch="false" />
+                <line number="51" hits="1" branch="false" />
+                <line number="52" hits="1" branch="true" condition-coverage="50% (1/2)" />
+                <line number="53" hits="0" branch="false" />
+                <line number="55" hits="1" branch="false" />
+                <line number="56" hits="1" branch="true" condition-coverage="50% (1/2)" />
+                <line number="57" hits="1" branch="false" />
+                <line number="58" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="SetName" signature="(System.String)" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines>
+                <line number="71" hits="2" branch="false" />
+                <line number="72" hits="2" branch="false" />
+                <line number="73" hits="2" branch="false" />
+              </lines>
+            </method>
+            <method name="SetSurname" signature="(System.String)" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines>
+                <line number="76" hits="1" branch="false" />
+                <line number="77" hits="1" branch="false" />
+                <line number="78" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="SetAccountNumber" signature="(System.Int32)" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines>
+                <line number="81" hits="1" branch="false" />
+                <line number="82" hits="1" branch="false" />
+                <line number="83" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="ToString" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="86" hits="2" branch="false" />
+                <line number="87" hits="2" branch="false" />
+                <line number="88" hits="2" branch="false" />
+                <line number="89" hits="2" branch="false" />
+                <line number="90" hits="2" branch="false" />
+                <line number="91" hits="2" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="13" hits="9" branch="false" />
+            <line number="14" hits="9" branch="false" />
+            <line number="15" hits="9" branch="false" />
+            <line number="16" hits="9" branch="false" />
+            <line number="17" hits="9" branch="false" />
+            <line number="18" hits="9" branch="false" />
+            <line number="19" hits="9" branch="false" />
+            <line number="21" hits="3" branch="false" />
+            <line number="22" hits="3" branch="false" />
+            <line number="23" hits="3" branch="false" />
+            <line number="31" hits="6" branch="false" />
+            <line number="35" hits="9" branch="false" />
+            <line number="39" hits="51" branch="false" />
+            <line number="42" hits="2" branch="false" />
+            <line number="45" hits="2" branch="false" />
+            <line number="46" hits="2" branch="false" />
+            <line number="50" hits="1" branch="false" />
+            <line number="51" hits="1" branch="false" />
+            <line number="52" hits="1" branch="true" condition-coverage="50% (1/2)" />
+            <line number="53" hits="0" branch="false" />
+            <line number="55" hits="1" branch="false" />
+            <line number="56" hits="1" branch="true" condition-coverage="50% (1/2)" />
+            <line number="57" hits="1" branch="false" />
+            <line number="58" hits="1" branch="false" />
+            <line number="63" hits="0" branch="false" />
+            <line number="71" hits="2" branch="false" />
+            <line number="72" hits="2" branch="false" />
+            <line number="73" hits="2" branch="false" />
+            <line number="76" hits="1" branch="false" />
+            <line number="77" hits="1" branch="false" />
+            <line number="78" hits="1" branch="false" />
+            <line number="81" hits="1" branch="false" />
+            <line number="82" hits="1" branch="false" />
+            <line number="83" hits="1" branch="false" />
+            <line number="86" hits="2" branch="false" />
+            <line number="87" hits="2" branch="false" />
+            <line number="88" hits="2" branch="false" />
+            <line number="89" hits="2" branch="false" />
+            <line number="90" hits="2" branch="false" />
+            <line number="91" hits="2" branch="false" />
+          </lines>
+        </class>
+        <class name="Business_Logic_Layer.ClientManagement" filename="C:\Users\Alex\source\repos\Kursovaya\Business_Logic_Layer\ClientManagement.cs" line-rate="0.8857142857142857" branch-rate="0.75" complexity="1">
+          <methods>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="4" branch="false" />
+                <line number="14" hits="4" branch="false" />
+                <line number="15" hits="4" branch="false" />
+                <line number="16" hits="4" branch="false" />
+              </lines>
+            </method>
+            <method name="AddClient" signature="(System.String,System.String)" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines>
+                <line number="20" hits="7" branch="false" />
+                <line number="21" hits="7" branch="false" />
+                <line number="22" hits="11" branch="true" condition-coverage="100% (2/2)" />
+                <line number="23" hits="3" branch="false" />
+                <line number="24" hits="7" branch="false" />
+                <line number="25" hits="7" branch="false" />
+              </lines>
+            </method>
+            <method name="DeleteClient" signature="(System.Int32)" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines>
+                <line number="28" hits="3" branch="false" />
+                <line number="29" hits="3" branch="false" />
+                <line number="30" hits="1" branch="false" />
+                <line number="31" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="ChangeClientInfo" signature="(System.Int32,System.String,System.String)" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines>
+                <line number="34" hits="1" branch="false" />
+                <line number="35" hits="1" branch="false" />
+                <line number="37" hits="1" branch="false" />
+                <line number="38" hits="1" branch="false" />
+                <line number="40" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="GetClientInfo" signature="(System.Int32)" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines>
+                <line number="43" hits="2" branch="false" />
+                <line number="44" hits="6" branch="false" />
+                <line number="45" hits="2" branch="true" condition-coverage="100% (2/2)" />
+                <line number="46" hits="1" branch="false" />
+                <line number="48" hits="1" branch="false" />
+                <line number="49" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="GetClient" signature="(System.Int32)" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines>
+                <line number="86" hits="8" branch="false" />
+                <line number="91" hits="18" branch="false" />
+                <line number="92" hits="8" branch="true" condition-coverage="100% (2/2)" />
+                <line number="93" hits="2" branch="false" />
+                <line number="95" hits="6" branch="false" />
+                <line number="96" hits="6" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="13" hits="4" branch="false" />
+            <line number="14" hits="4" branch="false" />
+            <line number="15" hits="4" branch="false" />
+            <line number="16" hits="4" branch="false" />
+            <line number="20" hits="7" branch="false" />
+            <line number="21" hits="7" branch="false" />
+            <line number="22" hits="11" branch="true" condition-coverage="100% (2/2)" />
+            <line number="23" hits="3" branch="false" />
+            <line number="24" hits="7" branch="false" />
+            <line number="25" hits="7" branch="false" />
+            <line number="28" hits="3" branch="false" />
+            <line number="29" hits="3" branch="false" />
+            <line number="30" hits="1" branch="false" />
+            <line number="31" hits="1" branch="false" />
+            <line number="34" hits="1" branch="false" />
+            <line number="35" hits="1" branch="false" />
+            <line number="37" hits="1" branch="false" />
+            <line number="38" hits="1" branch="false" />
+            <line number="40" hits="1" branch="false" />
+            <line number="43" hits="2" branch="false" />
+            <line number="44" hits="6" branch="false" />
+            <line number="45" hits="2" branch="true" condition-coverage="100% (2/2)" />
+            <line number="46" hits="1" branch="false" />
+            <line number="48" hits="1" branch="false" />
+            <line number="49" hits="1" branch="false" />
+            <line number="59" hits="0" branch="false" />
+            <line number="63" hits="0" branch="false" />
+            <line number="66" hits="0" branch="false" />
+            <line number="86" hits="8" branch="false" />
+            <line number="91" hits="18" branch="false" />
+            <line number="92" hits="8" branch="true" condition-coverage="100% (2/2)" />
+            <line number="93" hits="2" branch="false" />
+            <line number="95" hits="6" branch="false" />
+            <line number="96" hits="6" branch="false" />
+            <line number="106" hits="0" branch="true" condition-coverage="0% (0/2)" />
+          </lines>
+        </class>
+        <class name="Business_Logic_Layer.Property" filename="C:\Users\Alex\source\repos\Kursovaya\Business_Logic_Layer\Property.cs" line-rate="1" branch-rate="1" complexity="NaN">
+          <methods>
+            <method name="Cost" signature="()" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines>
+                <line number="32" hits="6" branch="false" />
+              </lines>
+            </method>
+            <method name="ID" signature="()" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines>
+                <line number="36" hits="12" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(Business_Logic_Layer.Property/PropertyType,System.Int32,System.Int32)" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines>
+                <line number="16" hits="4" branch="false" />
+                <line number="17" hits="4" branch="false" />
+                <line number="18" hits="4" branch="false" />
+                <line number="19" hits="4" branch="false" />
+                <line number="20" hits="4" branch="false" />
+                <line number="21" hits="4" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="16" hits="4" branch="false" />
+            <line number="17" hits="4" branch="false" />
+            <line number="18" hits="4" branch="false" />
+            <line number="19" hits="4" branch="false" />
+            <line number="20" hits="4" branch="false" />
+            <line number="21" hits="4" branch="false" />
+            <line number="32" hits="6" branch="false" />
+            <line number="36" hits="12" branch="false" />
+          </lines>
+        </class>
+        <class name="Business_Logic_Layer.PropertyManagement" filename="C:\Users\Alex\source\repos\Kursovaya\Business_Logic_Layer\PropertyManagement.cs" line-rate="0.2054794520547945" branch-rate="0.125" complexity="3">
+          <methods>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="14" hits="5" branch="false" />
+                <line number="15" hits="5" branch="false" />
+                <line number="16" hits="5" branch="false" />
+                <line number="17" hits="5" branch="false" />
+              </lines>
+            </method>
+            <method name="AddProperty" signature="(Business_Logic_Layer.Property/PropertyType,System.Int32)" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines>
+                <line number="21" hits="2" branch="false" />
+                <line number="22" hits="2" branch="false" />
+                <line number="23" hits="3" branch="true" condition-coverage="100% (2/2)" />
+                <line number="24" hits="1" branch="false" />
+                <line number="25" hits="2" branch="false" />
+                <line number="26" hits="2" branch="false" />
+              </lines>
+            </method>
+            <method name="DeleteProperty" signature="(System.Int32)" line-rate="0" branch-rate="1" complexity="NaN">
+              <lines>
+                <line number="31" hits="0" branch="false" />
+                <line number="32" hits="0" branch="false" />
+                <line number="33" hits="0" branch="false" />
+                <line number="34" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="ChangePropertyInfo" signature="(System.Int32,Business_Logic_Layer.Property/PropertyType,System.Int32)" line-rate="0" branch-rate="1" complexity="NaN">
+              <lines>
+                <line number="39" hits="0" branch="false" />
+                <line number="40" hits="0" branch="false" />
+                <line number="42" hits="0" branch="false" />
+                <line number="43" hits="0" branch="false" />
+                <line number="45" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="GetPropertyInfo" signature="(System.Int32)" line-rate="0" branch-rate="0" complexity="NaN">
+              <lines>
+                <line number="50" hits="0" branch="false" />
+                <line number="51" hits="0" branch="false" />
+                <line number="52" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="53" hits="0" branch="false" />
+                <line number="55" hits="0" branch="false" />
+                <line number="56" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="GetAllPropertiesSortedInfo" signature="(Business_Logic_Layer.PropertyManagement/SortingParameter)" line-rate="0" branch-rate="0" complexity="NaN">
+              <lines>
+                <line number="60" hits="0" branch="false" />
+                <line number="61" hits="0" branch="true" condition-coverage="0% (0/4)" />
+                <line number="67" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="69" hits="0" branch="false" />
+                <line number="71" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="72" hits="0" branch="false" />
+                <line number="74" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="75" hits="0" branch="false" />
+                <line number="76" hits="0" branch="false" />
+                <line number="79" hits="0" branch="false" />
+                <line number="80" hits="0" branch="false" />
+                <line number="81" hits="0" branch="false" />
+                <line number="82" hits="0" branch="false" />
+                <line number="83" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="GetPropertiesBy" signature="(Business_Logic_Layer.Property/PropertyType,System.Int32)" line-rate="0" branch-rate="0" complexity="NaN">
+              <lines>
+                <line number="86" hits="0" branch="false" />
+                <line number="87" hits="0" branch="false" />
+                <line number="88" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="89" hits="0" branch="false" />
+                <line number="90" hits="0" branch="false" />
+                <line number="91" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="GetProperty" signature="(System.Int32)" line-rate="0.8333333333333334" branch-rate="0.5" complexity="NaN">
+              <lines>
+                <line number="95" hits="1" branch="false" />
+                <line number="100" hits="2" branch="false" />
+                <line number="101" hits="1" branch="true" condition-coverage="50% (1/2)" />
+                <line number="102" hits="0" branch="false" />
+                <line number="104" hits="1" branch="false" />
+                <line number="105" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="Search" signature="(System.String)" line-rate="0" branch-rate="0" complexity="NaN">
+              <lines>
+                <line number="110" hits="0" branch="false" />
+                <line number="111" hits="0" branch="false" />
+                <line number="114" hits="0" branch="false" />
+                <line number="115" hits="0" branch="true" condition-coverage="0% (0/4)" />
+                <line number="116" hits="0" branch="false" />
+                <line number="117" hits="0" branch="false" />
+                <line number="118" hits="0" branch="false" />
+                <line number="119" hits="0" branch="false" />
+                <line number="120" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="121" hits="0" branch="false" />
+                <line number="122" hits="0" branch="false" />
+                <line number="123" hits="0" branch="false" />
+                <line number="125" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="Save" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="128" hits="0" branch="false" />
+                <line number="129" hits="0" branch="false" />
+                <line number="130" hits="0" branch="false" />
+                <line number="131" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="Load" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="133" hits="0" branch="false" />
+                <line number="134" hits="0" branch="false" />
+                <line number="135" hits="0" branch="false" />
+                <line number="137" hits="0" branch="false" />
+                <line number="141" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="14" hits="5" branch="false" />
+            <line number="15" hits="5" branch="false" />
+            <line number="16" hits="5" branch="false" />
+            <line number="17" hits="5" branch="false" />
+            <line number="21" hits="2" branch="false" />
+            <line number="22" hits="2" branch="false" />
+            <line number="23" hits="3" branch="true" condition-coverage="100% (2/2)" />
+            <line number="24" hits="1" branch="false" />
+            <line number="25" hits="2" branch="false" />
+            <line number="26" hits="2" branch="false" />
+            <line number="31" hits="0" branch="false" />
+            <line number="32" hits="0" branch="false" />
+            <line number="33" hits="0" branch="false" />
+            <line number="34" hits="0" branch="false" />
+            <line number="39" hits="0" branch="false" />
+            <line number="40" hits="0" branch="false" />
+            <line number="42" hits="0" branch="false" />
+            <line number="43" hits="0" branch="false" />
+            <line number="45" hits="0" branch="false" />
+            <line number="50" hits="0" branch="false" />
+            <line number="51" hits="0" branch="false" />
+            <line number="52" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="53" hits="0" branch="false" />
+            <line number="55" hits="0" branch="false" />
+            <line number="56" hits="0" branch="false" />
+            <line number="60" hits="0" branch="false" />
+            <line number="61" hits="0" branch="true" condition-coverage="0% (0/4)" />
+            <line number="67" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="69" hits="0" branch="false" />
+            <line number="71" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="72" hits="0" branch="false" />
+            <line number="74" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="75" hits="0" branch="false" />
+            <line number="76" hits="0" branch="false" />
+            <line number="79" hits="0" branch="false" />
+            <line number="80" hits="0" branch="false" />
+            <line number="81" hits="0" branch="false" />
+            <line number="82" hits="0" branch="false" />
+            <line number="83" hits="0" branch="false" />
+            <line number="86" hits="0" branch="false" />
+            <line number="87" hits="0" branch="false" />
+            <line number="88" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="89" hits="0" branch="false" />
+            <line number="90" hits="0" branch="false" />
+            <line number="91" hits="0" branch="false" />
+            <line number="95" hits="1" branch="false" />
+            <line number="100" hits="2" branch="false" />
+            <line number="101" hits="1" branch="true" condition-coverage="50% (1/2)" />
+            <line number="102" hits="0" branch="false" />
+            <line number="104" hits="1" branch="false" />
+            <line number="105" hits="1" branch="false" />
+            <line number="110" hits="0" branch="false" />
+            <line number="111" hits="0" branch="false" />
+            <line number="114" hits="0" branch="false" />
+            <line number="115" hits="0" branch="true" condition-coverage="0% (0/4)" />
+            <line number="116" hits="0" branch="false" />
+            <line number="117" hits="0" branch="false" />
+            <line number="118" hits="0" branch="false" />
+            <line number="119" hits="0" branch="false" />
+            <line number="120" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="121" hits="0" branch="false" />
+            <line number="122" hits="0" branch="false" />
+            <line number="123" hits="0" branch="false" />
+            <line number="125" hits="0" branch="false" />
+            <line number="128" hits="0" branch="false" />
+            <line number="129" hits="0" branch="false" />
+            <line number="130" hits="0" branch="false" />
+            <line number="131" hits="0" branch="false" />
+            <line number="133" hits="0" branch="false" />
+            <line number="134" hits="0" branch="false" />
+            <line number="135" hits="0" branch="false" />
+            <line number="137" hits="0" branch="false" />
+            <line number="141" hits="0" branch="false" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="Testforkursovaya" line-rate="0.8888888888888888" branch-rate="1" complexity="9">
+      <classes>
+        <class name="Testforkursovaya.ClientTest" filename="C:\Users\Alex\source\repos\Kursovaya\Testforkursovaya\UnitTest2.cs" line-rate="0.6666666666666666" branch-rate="1" complexity="1">
+          <methods>
+            <method name="TestClient" signature="()" line-rate="0.6666666666666666" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="1" branch="false" />
+                <line number="13" hits="1" branch="false" />
+                <line number="14" hits="1" branch="false" />
+                <line number="16" hits="1" branch="false" />
+                <line number="17" hits="1" branch="false" />
+                <line number="18" hits="1" branch="false" />
+                <line number="19" hits="0" branch="false" />
+                <line number="20" hits="0" branch="false" />
+                <line number="21" hits="0" branch="false" />
+                <line number="22" hits="0" branch="false" />
+                <line number="23" hits="1" branch="false" />
+                <line number="24" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="12" hits="1" branch="false" />
+            <line number="13" hits="1" branch="false" />
+            <line number="14" hits="1" branch="false" />
+            <line number="16" hits="1" branch="false" />
+            <line number="17" hits="1" branch="false" />
+            <line number="18" hits="1" branch="false" />
+            <line number="19" hits="0" branch="false" />
+            <line number="20" hits="0" branch="false" />
+            <line number="21" hits="0" branch="false" />
+            <line number="22" hits="0" branch="false" />
+            <line number="23" hits="1" branch="false" />
+            <line number="24" hits="1" branch="false" />
+          </lines>
+        </class>
+        <class name="Testforkursovaya.RemoveOffer" filename="C:\Users\Alex\source\repos\Kursovaya\Testforkursovaya\UnitTest4.cs" line-rate="0.9166666666666666" branch-rate="1" complexity="1">
+          <methods>
+            <method name="TestRemoveOffer" signature="()" line-rate="0.9166666666666666" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="1" branch="false" />
+                <line number="13" hits="1" branch="false" />
+                <line number="14" hits="1" branch="false" />
+                <line number="16" hits="1" branch="false" />
+                <line number="17" hits="1" branch="false" />
+                <line number="18" hits="0" branch="false" />
+                <line number="19" hits="1" branch="false" />
+                <line number="20" hits="1" branch="false" />
+                <line number="21" hits="1" branch="false" />
+                <line number="22" hits="1" branch="false" />
+                <line number="23" hits="1" branch="false" />
+                <line number="24" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="12" hits="1" branch="false" />
+            <line number="13" hits="1" branch="false" />
+            <line number="14" hits="1" branch="false" />
+            <line number="16" hits="1" branch="false" />
+            <line number="17" hits="1" branch="false" />
+            <line number="18" hits="0" branch="false" />
+            <line number="19" hits="1" branch="false" />
+            <line number="20" hits="1" branch="false" />
+            <line number="21" hits="1" branch="false" />
+            <line number="22" hits="1" branch="false" />
+            <line number="23" hits="1" branch="false" />
+            <line number="24" hits="1" branch="false" />
+          </lines>
+        </class>
+        <class name="Testforkursovaya.SetAccountNumber" filename="C:\Users\Alex\source\repos\Kursovaya\Testforkursovaya\UnitTest3.cs" line-rate="0.6666666666666666" branch-rate="1" complexity="1">
+          <methods>
+            <method name="TestSetAccountNumber" signature="()" line-rate="0.6666666666666666" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="1" branch="false" />
+                <line number="14" hits="1" branch="false" />
+                <line number="15" hits="1" branch="false" />
+                <line number="18" hits="1" branch="false" />
+                <line number="19" hits="1" branch="false" />
+                <line number="21" hits="1" branch="false" />
+                <line number="22" hits="0" branch="false" />
+                <line number="23" hits="0" branch="false" />
+                <line number="24" hits="0" branch="false" />
+                <line number="25" hits="0" branch="false" />
+                <line number="27" hits="1" branch="false" />
+                <line number="28" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="13" hits="1" branch="false" />
+            <line number="14" hits="1" branch="false" />
+            <line number="15" hits="1" branch="false" />
+            <line number="18" hits="1" branch="false" />
+            <line number="19" hits="1" branch="false" />
+            <line number="21" hits="1" branch="false" />
+            <line number="22" hits="0" branch="false" />
+            <line number="23" hits="0" branch="false" />
+            <line number="24" hits="0" branch="false" />
+            <line number="25" hits="0" branch="false" />
+            <line number="27" hits="1" branch="false" />
+            <line number="28" hits="1" branch="false" />
+          </lines>
+        </class>
+        <class name="Testforkursovaya.TestClient" filename="C:\Users\Alex\source\repos\Kursovaya\Testforkursovaya\UnitTest1.cs" line-rate="1" branch-rate="1" complexity="6">
+          <methods>
+            <method name="AddOffer" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="1" branch="false" />
+                <line number="15" hits="1" branch="false" />
+                <line number="16" hits="1" branch="false" />
+                <line number="17" hits="1" branch="false" />
+                <line number="18" hits="1" branch="false" />
+                <line number="19" hits="1" branch="false" />
+                <line number="20" hits="1" branch="false" />
+                <line number="26" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="GetClient" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="29" hits="1" branch="false" />
+                <line number="30" hits="1" branch="false" />
+                <line number="31" hits="1" branch="false" />
+                <line number="32" hits="1" branch="false" />
+                <line number="33" hits="1" branch="false" />
+                <line number="34" hits="1" branch="false" />
+                <line number="35" hits="1" branch="false" />
+                <line number="36" hits="1" branch="false" />
+                <line number="39" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="DeleteClient" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="42" hits="1" branch="false" />
+                <line number="43" hits="1" branch="false" />
+                <line number="44" hits="1" branch="false" />
+                <line number="45" hits="1" branch="false" />
+                <line number="46" hits="1" branch="false" />
+                <line number="47" hits="1" branch="false" />
+                <line number="49" hits="2" branch="false" />
+                <line number="50" hits="2" branch="false" />
+                <line number="51" hits="1" branch="false" />
+                <line number="54" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="ChangeClientInfo" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="57" hits="1" branch="false" />
+                <line number="58" hits="1" branch="false" />
+                <line number="60" hits="1" branch="false" />
+                <line number="61" hits="1" branch="false" />
+                <line number="63" hits="1" branch="false" />
+                <line number="65" hits="1" branch="false" />
+                <line number="66" hits="1" branch="false" />
+                <line number="69" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="GetClientInfo" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="72" hits="1" branch="false" />
+                <line number="73" hits="1" branch="false" />
+                <line number="74" hits="1" branch="false" />
+                <line number="75" hits="1" branch="false" />
+                <line number="76" hits="1" branch="false" />
+                <line number="77" hits="1" branch="false" />
+                <line number="79" hits="1" branch="false" />
+                <line number="80" hits="2" branch="false" />
+                <line number="84" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="5" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="10" hits="5" branch="false" />
+            <line number="13" hits="1" branch="false" />
+            <line number="15" hits="1" branch="false" />
+            <line number="16" hits="1" branch="false" />
+            <line number="17" hits="1" branch="false" />
+            <line number="18" hits="1" branch="false" />
+            <line number="19" hits="1" branch="false" />
+            <line number="20" hits="1" branch="false" />
+            <line number="26" hits="1" branch="false" />
+            <line number="29" hits="1" branch="false" />
+            <line number="30" hits="1" branch="false" />
+            <line number="31" hits="1" branch="false" />
+            <line number="32" hits="1" branch="false" />
+            <line number="33" hits="1" branch="false" />
+            <line number="34" hits="1" branch="false" />
+            <line number="35" hits="1" branch="false" />
+            <line number="36" hits="1" branch="false" />
+            <line number="39" hits="1" branch="false" />
+            <line number="42" hits="1" branch="false" />
+            <line number="43" hits="1" branch="false" />
+            <line number="44" hits="1" branch="false" />
+            <line number="45" hits="1" branch="false" />
+            <line number="46" hits="1" branch="false" />
+            <line number="47" hits="1" branch="false" />
+            <line number="49" hits="2" branch="false" />
+            <line number="50" hits="2" branch="false" />
+            <line number="51" hits="1" branch="false" />
+            <line number="54" hits="1" branch="false" />
+            <line number="57" hits="1" branch="false" />
+            <line number="58" hits="1" branch="false" />
+            <line number="60" hits="1" branch="false" />
+            <line number="61" hits="1" branch="false" />
+            <line number="63" hits="1" branch="false" />
+            <line number="65" hits="1" branch="false" />
+            <line number="66" hits="1" branch="false" />
+            <line number="69" hits="1" branch="false" />
+            <line number="72" hits="1" branch="false" />
+            <line number="73" hits="1" branch="false" />
+            <line number="74" hits="1" branch="false" />
+            <line number="75" hits="1" branch="false" />
+            <line number="76" hits="1" branch="false" />
+            <line number="77" hits="1" branch="false" />
+            <line number="79" hits="1" branch="false" />
+            <line number="80" hits="2" branch="false" />
+            <line number="84" hits="1" branch="false" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>
